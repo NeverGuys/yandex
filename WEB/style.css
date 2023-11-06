@@ -15,6 +15,8 @@
     
 }
 
+
+
 header {
     background-color: white;
     height: 110px;
@@ -24,7 +26,7 @@ header {
 
 body{
     background-color: #F1F1F1;
-    width: 1500;
+   
     
 }
 
@@ -148,9 +150,7 @@ h3 {
     
 }
 
-.gorentwo  {
-     padding-bottom: 50px;
-}
+
 
 
 
@@ -185,10 +185,12 @@ flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 30px;
-    width: 1500px;
+    
     
     
 }
+
+
 
 
 
