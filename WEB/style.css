@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+header {
+    background-color: white;
+    height: 110px;
+}
+
+
+body{
+    background-color: #F1F1F1;
+    
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+
+h3 {
+    font-family: "Anonymous Pro", sans-serif;
+      font-size: 26px;
+      text-align: left;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    line-height: 26px;
+  }
+  
+  p {
+    font-family: "Anonymous Pro", serif;
+    font-size: 20px;
+    text-align: left;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+
+  }
+  
+  img {
+      width: 370px;
+  }
+
+  hr {
+    margin-left: 95px;
+    width: 86%;
+    border: 1px solid rgba(230, 232, 236, 0.4);
+}
+
+
+  footer {
+    background-color:  #121723;
+    height: 100px;
+    padding: 45px;
+    margin-top: 50px;
+  }
+
+  .container_text p {
+    padding-left: 0px;
+  }
+
+  .container_title {
+    font-size: 26;
+    font-family: "Anonymous Pro", sans-serif;
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 200;
+  }
+
+  .container_text {
+    font-size: 20px;
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    
+    font-weight: 400;
+  }
+  
+  #bottom {
+    padding-bottom: 40px;
+  }
+
+.headerinfo {
+    display: flex;
+    justify-content:space-between;
+}
+
+.text-center {
+    font-family: "Anonymous Pro", sans-serif;
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+    font-size: 48px;
+    padding-left: 148px;
+    padding-top: 30px;
+    
+}
+
+.logo {
+    width: 212.34px;
+    height: 63.24px;
+    top: 30.18px;
+    padding-left: 150px;
+    padding-top: 30.18px;
+    
+}
+
+.social {
+    display: flex;
+    font-family: "Anonymous Pro", serif;
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+    justify-content: flex-end;
+    gap: 24px;
+    padding-right: 170px;
+    padding-top: 42.18px;
+    
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+.container {
+    display: inline-block;
+
+    
+    border-radius: 20px;
+	margin: 15px;
+    background-color: white;
+    
+}
+
+.photo {
+    border-radius: 20px;
+    padding-bottom : 40px;
+}
+
+.maininfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.header-logo {
+    width: 299px;
+    height: 22.32px;
+    padding-left: 97px;
+    
+}
+
+.socialfooter {
+    font-family: "Anonymous Pro", serif;
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+    Line-height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    padding-right: 100px;
+    color: white;
+}
+
+.socialfooter a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footerinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    color: #E6E8EC;
+    lighting-color: #E6E8EC;
+    margin-top: 38px;
+    
+    
+}
+
+.textfooter {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+    Line-height: 16px;
+    color: #A1A6B4;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 24px;
+}
